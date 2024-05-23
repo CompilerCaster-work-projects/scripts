@@ -6,3 +6,5 @@ on er.inspection_id = ipr.id
 inner join structures.organizations o 
 on o.id = ipr.org_id 
 where ipr.started_at between '2024-01-30 00:00:00.000 +0300' and '2024-01-30 23:59:59.999 +0300'
+
+$$ language plpgsql;
