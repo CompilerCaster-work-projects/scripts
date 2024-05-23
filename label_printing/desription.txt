@@ -1,0 +1,3 @@
+The task was to understand in which organizations and during what period of time there was a failure in printing labels on PAC. 
+In this script, I simply uploaded several necessary timestamps, adding information about the companies where inspections took place and inspection timestamps. 
+This script mainly shows how to work with joins.
